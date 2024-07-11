@@ -1,0 +1,144 @@
+Sun Jun 16 07:54:29 ICT 2024
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$tree UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 6)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:eval:1: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Sun Jun 16 08:09:50 ICT 2024
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$tree UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 6)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Sun Jun 16 08:15:16 ICT 2024
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$tree UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 6)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Sun Jun 16 08:15:26 ICT 2024
+Trace back: Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)
+    while executing
+"$itk_component(tree) insertquery end """
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::requery" body line 3)
+    invoked from within
+"requery"
+    (object "::.main_pane.memory.interior.cs.body.tree" method "::FlatMemlist::UpdateFlatMemList" body line 8)
+    invoked from within
+"$tree UpdateFlatMemList"
+    (procedure "Memview::delayedUpdateMemoryList" line 6)
+    invoked from within
+"Memview::delayedUpdateMemoryList"
+    ("after" script)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+  <1:C:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {Bad sequence in.main_pane.memory.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.tree, aborting query. (2)}
+Sun Jun 16 21:01:08 ICT 2024
+Trace back: invalid command name ""
+    while executing
+"$wo GetData showwave"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Base::UserChangedActiveTime" body line 6)
+    invoked from within
+"::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime"
+    (in namespace inscope "::vsimwidgets::Dataflow::Base" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Dataflow::Base {::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime}"
+    ("eval" body line 1)
+    invoked from within
+"eval [$timebar cget -timechangecb]"
+    (procedure "::vsimwidgets::TimeBar::TimeChangeHandler" body line 17)
+    invoked from within
+"::vsimwidgets::TimeBar::TimeChangeHandler ::vsimPriv acttime write"
+    (write trace on "::vsimPriv(acttime)")
+    invoked from within
+"set ::vsimPriv(acttime) $t"
+    (procedure "::TimeBarCmd::SetActiveTime" line 10)
+    invoked from within
+"::TimeBarCmd::SetActiveTime $t "--store""
+    (procedure "::vsimwidgets::TimeBar::SetActiveTime" body line 18)
+    invoked from within
+"SetActiveTime $_acttimeAfterDrag --postdrag"
+    (procedure "::vsimwidgets::TimeBar::WaveCursorDragChange" body line 23)
+    invoked from within
+"::vsimwidgets::TimeBar::WaveCursorDragChange vsimPriv dragging_cursor write"
+    (write trace on "vsimPriv(dragging_cursor)")
+    invoked from within
+"set vsimPriv(dragging_cursor) 0"
+    (procedure "Wave::1Up" line 76)
+    invoked from within
+"Wave::1Up $widget $x $y"
+    (procedure "Wave::SelectUp" line 4)
+    invoked from within
+"Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 506 137 2313 353 "
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ""}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ""}
+Sun Jun 16 21:04:40 ICT 2024
+Trace back: invalid command name ""
+    while executing
+"$wo GetData showwave"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Base::UserChangedActiveTime" body line 6)
+    invoked from within
+"::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime"
+    (in namespace inscope "::vsimwidgets::Dataflow::Base" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Dataflow::Base {::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime}"
+    ("eval" body line 1)
+    invoked from within
+"eval [$timebar cget -timechangecb]"
+    (procedure "::vsimwidgets::TimeBar::TimeChangeHandler" body line 17)
+    invoked from within
+"::vsimwidgets::TimeBar::TimeChangeHandler ::vsimPriv acttime write"
+    (write trace on "::vsimPriv(acttime)")
+    invoked from within
+"set ::vsimPriv(acttime) $t"
+    (procedure "::TimeBarCmd::SetActiveTime" line 10)
+    invoked from within
+"::TimeBarCmd::SetActiveTime $t "--store""
+    (procedure "::vsimwidgets::TimeBar::SetActiveTime" body line 18)
+    invoked from within
+"SetActiveTime $_acttimeAfterDrag --postdrag"
+    (procedure "::vsimwidgets::TimeBar::WaveCursorDragChange" body line 23)
+    invoked from within
+"::vsimwidgets::TimeBar::WaveCursorDragChange vsimPriv dragging_cursor write"
+    (write trace on "vsimPriv(dragging_cursor)")
+    invoked from within
+"set vsimPriv(dragging_cursor) 0"
+    (procedure "Wave::1Up" line 76)
+    invoked from within
+"Wave::1Up $widget $x $y"
+    (procedure "Wave::SelectUp" line 4)
+    invoked from within
+"Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 496 123 2303 339 "
+    (command bound to event)
+  <2:C:/intelFPGA/20.1/modelsim_ase/win32aloem/tk8.6/bgerror.tcl:106: ::tkerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ""}
+  <1:C:/mtitcl/vsim/dataflow.tc_:24053: ::tk::dialog::error::bgerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ""}

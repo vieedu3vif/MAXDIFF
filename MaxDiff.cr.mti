@@ -1,0 +1,106 @@
+E:/ModelSim/examples/MAXDIFF.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:\ModelSim\examples\MaxDiff.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LIBRA
+-- Compiling entity MAXDIFF
+-- Compiling architecture RTL of MAXDIFF
+
+} {} {}} E:/ModelSim/examples/MaxDiff.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/MaxDiff.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LIBRA
+-- Compiling entity MAXDIFF
+-- Compiling architecture RTL of MAXDIFF
+
+} {} {}} E:/ModelSim/examples/Datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/Datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package LIBRA
+-- Compiling entity DATAPATH
+-- Compiling architecture RTL of DATAPATH
+
+} {} {}} E:/ModelSim/examples/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:\ModelSim\examples\Controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROLLER
+-- Compiling architecture RTL of CONTROLLER
+
+} {} {}} E:/ModelSim/examples/Regn.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/Regn.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity REGN
+-- Compiling architecture RTL of REGN
+
+} {} {}} E:/ModelSim/examples/counter.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter
+-- Compiling architecture Behavioral of Counter
+
+} {} {}} E:/ModelSim/examples/MAXDIFF_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {E:\ModelSim\examples\MAXDIFF_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package LIBRA
+-- Compiling entity MAXDIFF_tb
+-- Compiling architecture behavior of MAXDIFF_tb
+
+} {} {}} E:/ModelSim/examples/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/Memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Memory
+-- Compiling architecture Behavioral of Memory
+
+} {} {}} E:/ModelSim/examples/counter_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/counter_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Counter_tb
+-- Compiling architecture behavior of Counter_tb
+
+} {} {}} E:/ModelSim/examples/Memory_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/Memory_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Memory_tb
+-- Compiling architecture behavior of Memory_tb
+
+} {} {}} E:/ModelSim/examples/LIBRA.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/LIBRA.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package LIBRA
+
+} {} {}}

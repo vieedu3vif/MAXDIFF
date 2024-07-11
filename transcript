@@ -1,0 +1,192 @@
+# Errors: 0, Warnings: 0
+# Compile of counter.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of Datapath.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of Memory.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of Regn.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of Controller.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of Memory_tb.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of counter_tb.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of LIBRA.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of MaxDiff.vhd was successful.
+# Errors: 0, Warnings: 0
+# Compile of MAXDIFF_tb.vhd was successful.
+# All compile dependencies have been resolved.vsim maxdiff_tb
+# vsim maxdiff_tb 
+# Start time: 13:33:23 on Jun 17,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.libra
+# Loading work.maxdiff_tb(behavior)
+# Loading work.maxdiff(rtl)
+# Loading work.controller(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.datapath(rtl)
+# Loading work.regn(rtl)
+# Loading work.memory(behavioral)
+# Loading work.counter(behavioral)
+add wave *
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /maxdiff_tb/uut/DATPATH
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ns  Iteration: 2  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ns  Iteration: 2  Instance: /maxdiff_tb/uut/DATPATH
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of counter.vhd was successful.
+# Compile of Datapath.vhd was successful.
+# Compile of Memory.vhd was successful.
+# Compile of Regn.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of Memory_tb.vhd was successful.
+# Compile of counter_tb.vhd was successful.
+# Compile of LIBRA.vhd was successful.
+# Compile of MaxDiff.vhd was successful.
+# Compile of MAXDIFF_tb.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.maxdiff_tb
+# End time: 14:15:08 on Jun 17,2024, Elapsed time: 0:41:45
+# Errors: 0, Warnings: 16
+# vsim work.maxdiff_tb 
+# Start time: 14:15:08 on Jun 17,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.libra
+# Loading work.maxdiff_tb(behavior)
+# Loading work.maxdiff(rtl)
+# Loading work.controller(rtl)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.datapath(rtl)
+# Loading work.regn(rtl)
+# Loading work.memory(behavioral)
+# Loading work.counter(behavioral)
+add wave *
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /maxdiff_tb/uut/DATPATH
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ns  Iteration: 2  Instance: /maxdiff_tb/uut/DATPATH
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ns  Iteration: 2  Instance: /maxdiff_tb/uut/DATPATH
+run
+run
+# End time: 14:25:23 on Jun 17,2024, Elapsed time: 0:10:15
+# Errors: 0, Warnings: 13

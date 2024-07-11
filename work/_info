@@ -1,0 +1,507 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Econtroller
+Z0 w1718581903
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2600
+Z3 dE:/ModelSim/examples
+Z4 8E:\ModelSim\examples\Controller.vhd
+Z5 FE:\ModelSim\examples\Controller.vhd
+l0
+L4 1
+VW=9ZLzhbh8:RIMR:bB]<P0
+!s100 PVdTHjMmP=g;_^Ro1VRTP0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1718608490
+!i10b 1
+Z8 !s108 1718608490.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\ModelSim\examples\Controller.vhd|
+Z10 !s107 E:\ModelSim\examples\Controller.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+DEx4 work 10 controller 0 22 W=9ZLzhbh8:RIMR:bB]<P0
+!i122 2600
+l23
+L20 103
+VjadodhG<50JeYjefGz6h`1
+!s100 2c_gf=2I:P6PVEh11A7an3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ecounter
+Z13 w1718563228
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 2596
+R3
+Z17 8E:/ModelSim/examples/counter.vhd
+Z18 FE:/ModelSim/examples/counter.vhd
+l0
+L6 1
+VEUc7Q5Y^9ETSnU7Q7o3BZ2
+!s100 M>GX>a32[dh>C]z548;C>2
+R6
+32
+R7
+!i10b 1
+Z19 !s108 1718608489.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/counter.vhd|
+Z21 !s107 E:/ModelSim/examples/counter.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R15
+R16
+R1
+R2
+DEx4 work 7 counter 0 22 EUc7Q5Y^9ETSnU7Q7o3BZ2
+!i122 2596
+l22
+L19 20
+VLk`35_kP:Pa^2ZG8=Ee:g3
+!s100 ICkVIlMH>SM50PhSDg:S51
+R6
+32
+R7
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Ecounter_tb
+Z22 w1718586974
+R14
+R1
+R2
+!i122 2602
+R3
+Z23 8E:/ModelSim/examples/counter_tb.vhd
+Z24 FE:/ModelSim/examples/counter_tb.vhd
+l0
+L5 1
+VOU7jc=_fgHaodNkk700jz2
+!s100 k8i6C7K_hC6XQUe]kbfgV0
+R6
+32
+Z25 !s110 1718608492
+!i10b 1
+Z26 !s108 1718608492.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/counter_tb.vhd|
+Z28 !s107 E:/ModelSim/examples/counter_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R1
+R2
+DEx4 work 10 counter_tb 0 22 OU7jc=_fgHaodNkk700jz2
+!i122 2602
+l34
+L8 75
+V5@FTV2FmLOjEHF`H93[_j1
+!s100 G5Bf[WFNi<jzXg8Y`EYfK2
+R6
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Edatapath
+Z29 w1718592254
+Z30 DPx4 work 5 libra 0 22 iQEBzcmI2L>9=H?8Zh88M2
+R15
+R16
+R14
+R1
+R2
+!i122 2597
+R3
+Z31 8E:/ModelSim/examples/Datapath.vhd
+Z32 FE:/ModelSim/examples/Datapath.vhd
+l0
+L9 1
+VK`]Q@4HLdMkU>RVMG2BX@1
+!s100 abcoj9dP71obZR0m3EZ?A1
+R6
+32
+R7
+!i10b 1
+R8
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/Datapath.vhd|
+Z34 !s107 E:/ModelSim/examples/Datapath.vhd|
+!i113 1
+R11
+R12
+Artl
+R30
+R15
+R16
+R14
+R1
+R2
+DEx4 work 8 datapath 0 22 K`]Q@4HLdMkU>RVMG2BX@1
+!i122 2597
+l31
+L27 97
+V8;[m>H;3NYbI6>AGJj96;2
+!s100 1]<8gJ:WHjK>^D@4=AQGI2
+R6
+32
+R7
+!i10b 1
+R8
+R33
+R34
+!i113 1
+R11
+R12
+Plibra
+R14
+R1
+R2
+!i122 2603
+w1718562931
+R3
+8E:/ModelSim/examples/LIBRA.vhd
+FE:/ModelSim/examples/LIBRA.vhd
+l0
+L5 1
+ViQEBzcmI2L>9=H?8Zh88M2
+!s100 >o16QjNnDBYVg]NB]0aoE1
+R6
+32
+Z35 !s110 1718608494
+!i10b 1
+Z36 !s108 1718608494.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/LIBRA.vhd|
+!s107 E:/ModelSim/examples/LIBRA.vhd|
+!i113 1
+R11
+R12
+Emaxdiff
+Z37 w1718562898
+R30
+R14
+R1
+R2
+!i122 2604
+R3
+Z38 8E:/ModelSim/examples/MaxDiff.vhd
+Z39 FE:/ModelSim/examples/MaxDiff.vhd
+l0
+L6 1
+Vk7K1`mU9WC7>JMLUhFB9O0
+!s100 29_;BM;XPlmKJa6c;1PmB1
+R6
+32
+R35
+!i10b 1
+R36
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/MaxDiff.vhd|
+Z41 !s107 E:/ModelSim/examples/MaxDiff.vhd|
+!i113 1
+R11
+R12
+Artl
+R30
+R14
+R1
+R2
+DEx4 work 7 maxdiff 0 22 k7K1`mU9WC7>JMLUhFB9O0
+!i122 2604
+l26
+L22 33
+VN>L`LKJdYejil14Z[:5>D0
+!s100 XCzSBa=[?fIJD]B=c3oEl2
+R6
+32
+R35
+!i10b 1
+R36
+R40
+R41
+!i113 1
+R11
+R12
+Emaxdiff_tb
+Z42 w1718588246
+R30
+R14
+R1
+R2
+!i122 2605
+R3
+Z43 8E:\ModelSim\examples\MAXDIFF_tb.vhd
+Z44 FE:\ModelSim\examples\MAXDIFF_tb.vhd
+l0
+L6 1
+VBbLo2JTG;TJhzL40Wfm402
+!s100 QbOLoDQzCELmK_2n5c^]>0
+R6
+32
+R35
+!i10b 1
+R36
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\ModelSim\examples\MAXDIFF_tb.vhd|
+!s107 E:\ModelSim\examples\MAXDIFF_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R30
+R14
+R1
+R2
+Z46 DEx4 work 10 maxdiff_tb 0 22 BbLo2JTG;TJhzL40Wfm402
+!i122 2605
+l38
+Z47 L9 81
+Z48 VioK45X]U<AC9U]@AlK[k`2
+Z49 !s100 :@N8k4CzU?mF^_XfUPLW71
+R6
+32
+R35
+!i10b 1
+R36
+R45
+Z50 !s107 E:\ModelSim\examples\MAXDIFF_tb.vhd|
+!i113 1
+R11
+R12
+Ememory
+Z51 w1718582639
+R14
+R1
+R2
+!i122 2598
+R3
+Z52 8E:/ModelSim/examples/Memory.vhd
+Z53 FE:/ModelSim/examples/Memory.vhd
+l0
+L5 1
+V1888dRmmnYz7TS0UdiW4=3
+!s100 UkM3OTEh1cmhIC>B0[WnD2
+R6
+32
+R7
+!i10b 1
+R8
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/Memory.vhd|
+Z55 !s107 E:/ModelSim/examples/Memory.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R1
+R2
+DEx4 work 6 memory 0 22 1888dRmmnYz7TS0UdiW4=3
+!i122 2598
+l24
+L20 20
+VlW`=3Y1J?4Jjf3KFb^Z?d3
+!s100 @K@KZ>]SN_j2K@[^^URCo0
+R6
+32
+R7
+!i10b 1
+R8
+R54
+R55
+!i113 1
+R11
+R12
+Ememory_tb
+Z56 w1718583072
+R14
+R1
+R2
+!i122 2601
+R3
+Z57 8E:/ModelSim/examples/Memory_tb.vhd
+Z58 FE:/ModelSim/examples/Memory_tb.vhd
+l0
+L5 1
+V=@HYeJL3W_EJhICjj]SMD1
+!s100 foogYaT:?ID1VN?Db6Aal2
+R6
+32
+Z59 !s110 1718608491
+!i10b 1
+R8
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/Memory_tb.vhd|
+Z61 !s107 E:/ModelSim/examples/Memory_tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R1
+R2
+DEx4 work 9 memory_tb 0 22 =@HYeJL3W_EJhICjj]SMD1
+!i122 2601
+l41
+L8 97
+VU8CjYlNfP>O=G0nOQQ?cW2
+!s100 b:6RFnCHiRk@T]H>T:0ET0
+R6
+32
+R59
+!i10b 1
+R8
+R60
+R61
+!i113 1
+R11
+R12
+Eregn
+Z62 w1718436105
+R14
+R1
+R2
+!i122 2599
+R3
+Z63 8E:/ModelSim/examples/Regn.vhd
+Z64 FE:/ModelSim/examples/Regn.vhd
+l0
+L5 1
+Vd6Ic@IaM@5`:o^_lN6^H]1
+!s100 Yml@<H8Pmb`jC1^?MEHnW3
+R6
+32
+R7
+!i10b 1
+R8
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/Regn.vhd|
+Z66 !s107 E:/ModelSim/examples/Regn.vhd|
+!i113 1
+R11
+R12
+Artl
+R14
+R1
+R2
+DEx4 work 4 regn 0 22 d6Ic@IaM@5`:o^_lN6^H]1
+!i122 2599
+l18
+L17 14
+Vl`c_cMJlA;gdGhCez^:R@2
+!s100 `jMEmU;Ym;e4oB:T`EX]I3
+R6
+32
+R7
+!i10b 1
+R8
+R65
+R66
+!i113 1
+R11
+R12
+Etop
+Z67 w1718228632
+!i122 0
+R3
+Z68 8E:/ModelSim/examples/top.vhd
+Z69 FE:/ModelSim/examples/top.vhd
+l0
+L1 1
+VcK;WWchV^?kMTU36DN4Bb2
+!s100 44Sej`oP>Y7DMBM@]B]0H2
+R6
+32
+Z70 !s110 1718228635
+!i10b 1
+Z71 !s108 1718228635.000000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/top.vhd|
+Z73 !s107 E:/ModelSim/examples/top.vhd|
+!i113 1
+R11
+R12
+Atop_arch
+DEx4 work 3 top 0 22 cK;WWchV^?kMTU36DN4Bb2
+!i122 0
+l7
+L6 4
+VQj57c_bA@D<0h8SYT8<d43
+!s100 Zg6__aPTRj50@2Q6VACUd2
+R6
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R11
+R12
+Etop_tb
+Z74 w1718228928
+!i122 1
+R3
+Z75 8E:/ModelSim/examples/top_tb.vhd
+Z76 FE:/ModelSim/examples/top_tb.vhd
+l0
+L1 1
+VRK;96`7@RNW^FZiH8K6<>0
+!s100 YVgSDzn<cmIi8k7SEFRC=2
+R6
+32
+Z77 !s110 1718228930
+!i10b 1
+Z78 !s108 1718228930.000000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/ModelSim/examples/top_tb.vhd|
+Z80 !s107 E:/ModelSim/examples/top_tb.vhd|
+!i113 1
+R11
+R12
+Atop_tb_arch
+DEx4 work 6 top_tb 0 22 RK;96`7@RNW^FZiH8K6<>0
+!i122 1
+l11
+L4 16
+VP@LKm483zCKWLBEkDV80d1
+!s100 MP]ULF7VMYSPneoB=:jh03
+R6
+32
+R77
+!i10b 1
+R78
+R79
+R80
+!i113 1
+R11
+R12

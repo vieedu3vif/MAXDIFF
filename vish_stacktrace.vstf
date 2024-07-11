@@ -1,0 +1,25 @@
+# Current time Mon Jun 17 00:29:12 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 52370f9f. Traceback:
+# 0    0x52370f9f: 'TkWinGetDrawableDC + 0xf'
+# 1    0x52371cb0: 'XCopyArea + 0x20'
+# 2    0x5177c6d9: 'Nlview_Init + 0x4579'
+# 3    0x76fc5f2e: 'RtlAllocateHeap + 0x3e'
+# 4    0x5178265c: 'Nlview_Init + 0xa4fc'
+# 5    0x51603e76: '<unknown (@0x51603e76)>'
+# 6    0x51610624: '<unknown (@0x51610624)>'
+# 7    0x516139fa: 'Nlview_DirectAPI + 0x29ea'
+# 8    0x51609a94: '<unknown (@0x51609a94)>'
+# 9    0x5177a4ec: 'Nlview_Init + 0x238c'
+# 10   0x523cec2d: 'Tk_HandleEvent + 0x20d'
+# 11   0x02b77388: '<unknown (@0x2b77388)>'
+# 12   0x522935ef: 'Tcl_FindHashEntry + 0x1f'
+StackWalk failed 299
+# End of Stack Trace
+

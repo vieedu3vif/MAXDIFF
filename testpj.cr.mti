@@ -1,0 +1,13 @@
+E:/ModelSim/examples/top.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/top.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity top
+-- Compiling architecture top_arch of top
+
+} {} {}} E:/ModelSim/examples/top_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/ModelSim/examples/top_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Compiling entity top_tb
+-- Compiling architecture top_tb_arch of top_tb
+
+} {} {}}

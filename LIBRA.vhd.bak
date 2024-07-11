@@ -1,0 +1,97 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+PACKAGE LIBRA IS
+
+COMPONENT REGN IS
+  GENERIC(
+        DATA_WIDTH : INTEGER := 8
+);
+  PORT(
+        RST, CLK: IN STD_LOGIC;
+        D : IN STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0);
+        Q : OUT STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0);
+        En: IN STD_LOGIC
+  ); 
+
+END COMPONENT;
+
+COMPONENT CONTROLLER IS
+ GENERIC ( DATA_WIDTH : INTEGER :=8);
+
+  PORT(
+        RST, CLK: IN STD_LOGIC;
+        rt_i, check_i, min_sl, max_sl : IN STD_LOGIC;
+        En_max, En_min, En_cnt, En_dt,  max_sel, min_sel, En_o, LD_i : OUT STD_LOGIC;
+        START_i : IN STD_LOGIC;
+        RE, WE : OUT STD_LOGIC;
+        Done   : OUT STD_LOGIC;
+        MaxDIFF : IN STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0);
+        RESULT : OUT STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0)
+  ); 
+
+END COMPONENT;
+
+COMPONENT DATAPATH IS
+  GENERIC(
+        DATA_WIDTH : INTEGER := 8
+);
+  PORT(
+        RST, CLK, RE, WE, START_i, LD_i : IN STD_LOGIC;
+	En_max, En_min, En_dt, En_o,En_cnt: IN STD_LOGIC;
+        result, data_in : IN STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0);
+	ADDR_in : IN STD_LOGIC_VECTOR(DATA_WIDTH -1 downto 0);
+	L: IN STD_LOGIC_VECTOR(DATA_WIDTH -1 downto 0);
+        max_sel, min_sel: IN STD_LOGIC;
+	rt_i, check_i: OUT STD_LOGIC;
+        maxDiff : OUT STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0);
+	max_sl, min_sl: OUT STD_LOGIC
+  );
+
+END COMPONENT;
+
+COMPONENT MAXDIFF IS
+  GENERIC(
+        DATA_WIDTH : INTEGER := 8
+);
+  PORT(
+        RST, CLK: IN STD_LOGIC;
+        Start_i : IN STD_LOGIC;
+        data_in, ADDR_in : IN STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0);
+        maxDiff : OUT STD_LOGIC_VECTOR (DATA_WIDTH -1 downto 0);
+        Done : OUT STD_LOGIC;
+        RE, WE : INOUT STD_LOGIC
+  ); 
+
+END COMPONENT;
+
+COMPONENT Memory IS
+    GENERIC (
+        DATA_WIDTH : INTEGER := 8;  -- Data width in bits
+        ADDR_WIDTH : INTEGER := 8   -- Address width in bits, determining the memory size
+    );
+    PORT (
+        CLK : IN STD_LOGIC;
+        RST : IN STD_LOGIC;
+        WE, RE : IN STD_LOGIC;                
+        ADDR : IN STD_LOGIC_VECTOR(ADDR_WIDTH-1 DOWNTO 0);
+        data_in : IN STD_LOGIC_VECTOR(DATA_WIDTH-1 DOWNTO 0);
+        data_out : OUT STD_LOGIC_VECTOR(DATA_WIDTH-1 DOWNTO 0)
+    );
+END COMPONENT;
+
+COMPONENT Counter is
+    Generic (
+        DATA_WIDTH : INTEGER := 8
+    );
+    Port (
+        CLK : in STD_LOGIC;
+        Reset : in STD_LOGIC;
+        En_cnt : in STD_LOGIC;
+        Count_out : out STD_LOGIC_VECTOR(DATA_WIDTH-1 downto 0);
+	LD_i: in STD_LOGIC
+    );
+end COMPONENT;
+
+END LIBRA;

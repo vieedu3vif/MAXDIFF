@@ -3,6 +3,7 @@
 ## INTRODUCTION
 *  This project is final project of Digital Design Courses (ELT3202), UET-VNU.
 * This project is designed at RTL level, and it used VHDL to describe Hardware and Modelsim to simulate the results.
+* The goal is to design a digital circuit with the function to find the largest difference between elements in the array.
 
 ## ABOUT PROJECT
 ### Algorithms
